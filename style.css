@@ -73,6 +73,7 @@
     margin-top: 30px;
     padding: 12px 28px;
     font-size: 18px;
+    text-decoration: none;
     background-color: #e74c3c; /* Strong red for fitness vibes */
     color: white;
     border: none;
@@ -125,4 +126,56 @@
 
 .cal-box input:focus {
     border-color: #1a73e8;
+}
+/* login page  */
+.login-container{
+     max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-container h1{
+     font-size: 32px;
+    color:#c0392b;
+    margin-bottom: 10px;
+}
+.user-email{
+     width: 80%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+.user-password{
+     width: 80%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+.user-login{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 20px;
+    outline: none;
+    transition: border 0.3s ease;
+     background-color: #c75346;
+    transform: scale(1.05);
+}
+.user-login:hover{
+     background-color: #c0392b;
+    transform: scale(1.05);
 }
