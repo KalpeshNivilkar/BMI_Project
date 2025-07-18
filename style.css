@@ -86,3 +86,43 @@
     background-color: #c0392b;
     transform: scale(1.05);
 }
+/* bmi-box */
+/* BMI Calculator Main Box */
+.bmi-cal {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading Styles */
+.heading h1 {
+    font-size: 32px;
+    color:#c0392b;
+    margin-bottom: 10px;
+}
+
+.heading h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Input Box */
+.cal-box input {
+    width: 80%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.cal-box input:focus {
+    border-color: #1a73e8;
+}
