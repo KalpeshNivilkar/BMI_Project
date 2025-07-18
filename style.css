@@ -1,0 +1,88 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Styling */
+.container {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav Styling */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar Lists */
+.navbar-left,
+.navbar-right {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Navbar Links */
+.navbar-left li a,
+.navbar-right li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ee5209 ;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar-left li a:hover,
+.navbar-right li a:hover {
+    color:#ba1a08;
+}
+/* home-page */
+
+.home-page {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-page h2 {
+    font-size: 36px;
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+
+.home-page h4 {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+/* home-btn */
+.home-btn {
+    margin-top: 30px;
+    padding: 12px 28px;
+    font-size: 18px;
+    background-color: #e74c3c; /* Strong red for fitness vibes */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: 600;
+}
+
+.home-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
